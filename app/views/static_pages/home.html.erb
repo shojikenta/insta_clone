@@ -1,2 +1,12 @@
-<h1>Instagram clone</h1>
-<p>さっそく、始めよう！</p>
+<div class="center jumbotron">
+  <h1>Instagramへようこそ！</h1>
+
+  <h2>さっそく友達をフォローして近況を知ろう！
+    <a href="https://www.instagram.com/">Instagram</a>
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>

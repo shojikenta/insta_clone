@@ -5,6 +5,7 @@ ruby '2.6.3'
 
 gem 'rails', '~> 5.2.4'
 gem 'bootstrap-sass', '3.3.7'
+gem 'bcrypt',         '3.1.12'
 gem 'rails-controller-testing'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'

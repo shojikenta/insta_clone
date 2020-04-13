@@ -1,14 +1,14 @@
 require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
-  test "should get new" do
-    get signup_path
-    assert_response :success
-  end
-
   def setup
     @user = users(:michael)
     @other_user = users(:archer)
+  end
+
+  test "should get new" do
+    get signup_path
+    assert_response :success
   end
 
   test "should redirect index when not logged in" do
@@ -58,5 +58,4 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     end
     assert_redirected_to root_url
   end
-
 end

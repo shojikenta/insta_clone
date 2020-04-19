@@ -31,8 +31,13 @@ rubyhdrdir = $(includedir)/$(RUBY_VERSION_NAME)
 vendorarchdir = $(vendorlibdir)/$(sitearch)
 vendorlibdir = $(vendordir)/$(ruby_version)
 vendordir = $(rubylibprefix)/vendor_ruby
+<<<<<<< HEAD
 sitearchdir = $(DESTDIR)./.gem.20200419-13442-2uj5vm
 sitelibdir = $(DESTDIR)./.gem.20200419-13442-2uj5vm
+=======
+sitearchdir = $(DESTDIR)./.gem.20200419-24489-vk733d
+sitelibdir = $(DESTDIR)./.gem.20200419-24489-vk733d
+>>>>>>> user-microposts
 sitedir = $(rubylibprefix)/site_ruby
 rubyarchdir = $(rubylibdir)/$(arch)
 rubylibdir = $(rubylibprefix)/$(ruby_version)

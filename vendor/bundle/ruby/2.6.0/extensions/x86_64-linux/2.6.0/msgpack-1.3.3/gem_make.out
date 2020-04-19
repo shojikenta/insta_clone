@@ -1,5 +1,9 @@
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/msgpack-1.3.3/ext/msgpack
+<<<<<<< HEAD
 /home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-13442-2gd7g2.rb extconf.rb
+=======
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-24489-goq5ny.rb extconf.rb
+>>>>>>> user-microposts
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -63,4 +67,8 @@ linking shared-object msgpack/msgpack.so
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/msgpack-1.3.3/ext/msgpack
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 msgpack.so ./.gem.20200419-13442-qsy1vo/msgpack
+=======
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20200419-24489-1un5ta4/msgpack
+>>>>>>> user-microposts

@@ -1,5 +1,9 @@
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
+<<<<<<< HEAD
 /home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-13442-uu8jfq.rb extconf.rb
+=======
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-24489-19zkqvi.rb extconf.rb
+>>>>>>> user-microposts
 checking for ffi_call() in -lffi... yes
 checking for ffi_closure_alloc()... yes
 checking for shlwapi.h... no
@@ -44,4 +48,8 @@ linking shared-object ffi_c.so
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/ffi-1.12.2/ext/ffi_c
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 ffi_c.so ./.gem.20200419-13442-c3wc67
+=======
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20200419-24489-1r5bk2x
+>>>>>>> user-microposts

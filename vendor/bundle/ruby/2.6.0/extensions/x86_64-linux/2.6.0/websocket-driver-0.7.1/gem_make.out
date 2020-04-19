@@ -1,5 +1,9 @@
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+<<<<<<< HEAD
 /home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-13442-1tiidgq.rb extconf.rb
+=======
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-24489-1gde8a2.rb extconf.rb
+>>>>>>> user-microposts
 creating Makefile
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
@@ -12,4 +16,8 @@ linking shared-object websocket_mask.so
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20200419-13442-glkaqj
+=======
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20200419-24489-ws8mib
+>>>>>>> user-microposts

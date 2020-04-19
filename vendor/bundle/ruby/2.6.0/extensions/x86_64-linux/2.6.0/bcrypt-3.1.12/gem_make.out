@@ -1,5 +1,9 @@
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
+<<<<<<< HEAD
 /home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-13442-1xybcuo.rb extconf.rb
+=======
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-24489-1ki9ux9.rb extconf.rb
+>>>>>>> user-microposts
 creating Makefile
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
@@ -16,4 +20,8 @@ linking shared-object bcrypt_ext.so
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.12/ext/mri
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20200419-13442-npivwc
+=======
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20200419-24489-1eetkmc
+>>>>>>> user-microposts

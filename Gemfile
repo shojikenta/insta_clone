@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'sqlite3' , '1.3.13'
+gem 'listen', '>= 3.0.5', '< 3.2'
 
 group :development, :test do
   gem 'sqlite3' , '1.3.13'
@@ -42,6 +43,7 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog', '1.42'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

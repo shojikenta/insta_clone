@@ -1,5 +1,9 @@
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+<<<<<<< HEAD
 /home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-13442-13mp55q.rb extconf.rb
+=======
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200419-24489-lxpo9b.rb extconf.rb
+>>>>>>> user-microposts
 creating Makefile
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
@@ -32,4 +36,8 @@ linking shared-object bootsnap/bootsnap.so
 
 current directory: /home/ec2-user/environment/insta_clone/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 bootsnap.so ./.gem.20200419-13442-88o1qa/bootsnap
+=======
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20200419-24489-925sc4/bootsnap
+>>>>>>> user-microposts

@@ -42,5 +42,3 @@ group :production do
   gem 'pg', groups: %w(production), require: false
   gem 'fog', '1.42'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

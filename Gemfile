@@ -22,7 +22,7 @@ gem 'bootsnap', '>= 1.1.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 group :development, :test do
-  gem 'sqlite3' , '1.3.13'
+  gem 'sqlite3', groups: %w(test development), require: false
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
@@ -39,7 +39,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg', groups: %w(production), require: false
   gem 'fog', '1.42'
 end
 

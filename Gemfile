@@ -20,8 +20,6 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', require: false
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
-gem 'sqlite3', '~> 1.3', '< 1.4'
-gem 'listen',                '~> 3.0.5'
 
 group :development, :test do
   gem 'sqlite3', '~> 1.3', '< 1.4'

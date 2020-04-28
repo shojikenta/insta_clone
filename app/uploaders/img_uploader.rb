@@ -1,6 +1,7 @@
 class ImgUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
-  process resize_to_limit: [300, 300]
+
+  process resize_to_fill: [400, 400]
 
   if Rails.env.production?
     storage :fog
@@ -13,6 +14,6 @@ class ImgUploader < CarrierWave::Uploader::Base
   end
 
   def extension_whitelist
-    %w(jpg jpeg gif png)
+    %w(jpeg png)
   end
 end

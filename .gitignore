@@ -16,4 +16,4 @@ public/uploads/
 /strage/
 /tmp/
 
-/.env
+config/.env

@@ -30,10 +30,12 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/public/assets
+/app/assets/images/
+public/uploads/
 /bin/*
 /lib/*
 /log/*
 /strage/*
 /tmp/*
-/.env
+/vendor/*
+.env

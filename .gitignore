@@ -30,4 +30,10 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+/public/assets
+/bin/*
+/lib/*
+/log/*
+/strage/*
+/tmp/*
 /.env

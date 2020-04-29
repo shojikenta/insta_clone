@@ -22,6 +22,7 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
 /* typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -44,12 +45,14 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
+
 /* header */
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #000000;
+
 /* text-transform: uppercase; */
   font-family: bold;
   letter-spacing: -1px;
@@ -63,6 +66,7 @@ p {
 .navbar {
   background-color: #e6e6e6;
 }
+
 /* miscellaneous */
 .debug_dump {
   clear: both;
@@ -71,8 +75,8 @@ p {
   margin-top: 45px;
   @include box_sizing;
 }
-/* sidebar */
 
+/* sidebar */
 aside {
   section.user_info {
     margin-top: 20px;
@@ -98,16 +102,13 @@ aside {
     }
   }
 }
-
 .gravatar {
   float: left;
   margin-right: 10px;
 }
-
 .gravatar_edit {
   margin-top: 15px;
 }
-
 .stats {
   overflow: auto;
   margin-top: 0;
@@ -130,7 +131,6 @@ aside {
     display: block;
   }
 }
-
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
@@ -141,21 +141,17 @@ aside {
     padding: 0;
   }
 }
-
 .users.follow {
   padding: 0;
 }
 
-
 /* forms */
-
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
 }
-
 input {
   height: auto !important;
 }
@@ -166,7 +162,6 @@ input {
     margin: 0 0 30px 0;
   }
 }
-
 .field_with_errors {
   @extend .has-error;
   .form-control {
@@ -181,7 +176,6 @@ input {
     font-weight: normal;
   }
 }
-
 #session_remember_me {
   width: auto;
   margin-left: 0;
@@ -195,8 +189,8 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
-/* microposts */
 
+/* microposts */
 .microposts {
   list-style: none;
   padding: 0;
@@ -227,14 +221,12 @@ input {
     margin-top: 5px;
   }
 }
-
 aside {
   textarea {
     height: 100px;
     margin-bottom: 5px;
   }
 }
-
 span.picture {
   margin-top: 10px;
   input {

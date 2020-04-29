@@ -12,8 +12,8 @@ public/uploads/
 *.coffee
 
 /vendor
-/bin
-/lib
-/log
-/strage
-/tmp
+/bin/
+/lib/
+/log/
+/strage/
+/tmp/

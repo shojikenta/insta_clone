@@ -10,8 +10,8 @@ public/uploads/
 /db/fixtures/
 
 *.coffee
-
-/vendor
+/heroku/*
+/vendor/*
 /bin/
 /lib/
 /log/
